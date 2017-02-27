@@ -44,7 +44,8 @@ def doMoreDiscovery():
 
   # lets loop 5 or so times, that will be be 25 scans (will take a bit)
   print "Scanning 25 more times, please be patient..."
-  while counter < 5:
+  #while counter < 5:
+  while counter < 2:
     doDiscovery()
     counter += 1
     #print str( counter*5 ) + " scans completed."
